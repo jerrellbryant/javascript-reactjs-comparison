@@ -1,0 +1,16 @@
+{
+    "name": "Leads Saver",
+    "description": "Save leads and access them anytime.",
+    "version": "3.0",
+    "manifest_version": 3,
+     "permissions": [
+        "activeTab",
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Leads Saver",
+        "default_icon": "/img/icon.png"
+    }
+}
